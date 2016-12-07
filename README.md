@@ -1,4 +1,7 @@
 # sesync16
-LEarning to use version control
+
+Learning to use version control
 
 First commit on another repository 
+
+Adding some text from RStudio.
