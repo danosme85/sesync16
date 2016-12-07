@@ -1,3 +1,2 @@
 # sesync16
-test
-bla bla
+LEarning to use version control
