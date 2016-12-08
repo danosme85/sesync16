@@ -16,7 +16,6 @@ to setup-patches
                                    ask patches with [pxcor <= 0 and pycor >  0] [set pcolor 42]
                                    ask patches with [pxcor >  0 and pycor <= 0] [set pcolor one-of [black 42 52]]]
   if landscape-type = "bands" [set succession? TRUE
-                               ask patches [set pcolor black]
                                ask patches with [pxcor >= max-pxcor - ( 2 * (2 * max-pxcor) / 3)] [set pcolor 42]
                                ask patches with [pxcor >= max-pxcor - ((2 * max-pxcor) / 3)] [set pcolor 52]]
   if landscape-type = "random" [set succession? TRUE
@@ -95,7 +94,6 @@ to regrowth-grass
        ]
    ]
 end
-
 @#$#@#$#@
 GRAPHICS-WINDOW
 371
